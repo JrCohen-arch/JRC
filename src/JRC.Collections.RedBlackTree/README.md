@@ -192,9 +192,7 @@ int foundNodeId = index.FindNodeId(item);   // O(n) scan
 This library is based on Microsoft's internal `RBTree<K>` class from `System.Data`, with significant improvements:
 
 - **Successor chain**: O(1) enumeration via linked successor pointers (vs O(log n) tree traversal) for `RedBlackTreeList<K>` (and `RedBlackTreeIndex<K>`), and also `RedBlackTreeDictionary<K, V>()`
-- **Page-based allocation**: Nodes stored in contiguous struct arrays, reducing memory overhead and GC pressure
-- **SubTreeSize tracking**: Each node tracks its subtree size, enabling O(log n) index operations
-- **Satellite trees**: Duplicates handled via satellite trees, maintaining O(log n) performance
+- **Simplified API & Optimized Performance**: Unlike Microsoft's shared `RBTree<K>` implementation used across multiple collection types, this library provides dedicated classes with specialized optimizations for each use case, resulting in cleaner APIs and better performance.
 
 ### Node Structure
 ```
@@ -220,7 +218,7 @@ This library is based on Microsoft's internal `RBTree<K>` class from `System.Dat
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License - see [LICENSE](https://github.com/JrCohen-arch/JRC/tree/main/LICENSE) for details.
 
 ---
 
