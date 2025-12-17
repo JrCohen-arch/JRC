@@ -2,7 +2,8 @@
 
 **⚡ Blazing fast sorted collections with index access — what .NET should have been**
 
-[![NuGet](https://img.shields.io/nuget/v/JRC.Collections.RedBlackTree.svg)](https://www.nuget.org/packages/JRC.Collections.RedBlackTree)
+[![NuGet](https://img.shields.io/nuget/v/JRC.Collections.RedBlackTree.svg)](https://www.nuget.org/packages/JRC.Collections.RedBlackTree/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/JRC.Collections.RedBlackTree.svg)](https://www.nuget.org/packages/JRC.Collections.RedBlackTree/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > 🚀 **30% less memory** than Microsoft's SortedSet/SortedDictionary  
