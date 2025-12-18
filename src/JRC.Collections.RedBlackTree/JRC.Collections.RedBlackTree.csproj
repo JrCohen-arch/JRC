@@ -11,7 +11,7 @@
 
   <PropertyGroup>
     <PackageId>JRC.Collections.RedBlackTree</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Title>RedBlackTree Collections</Title>
     <Description>Blazing fast sorted collections with index access — 30% less memory, O(log n) index operations, duplicate support, custom serialization (XML, JSON, MessagePack, Binary).</Description>
     <Authors>JRC</Authors>
